@@ -1,0 +1,93 @@
+.contactpage{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 60rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cptitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.clentdesc{
+    font-weight: 300;
+    font-size: 200;
+
+}
+.clientimgs{
+    margin: 1rem 0;
+    display: flex;
+}
+.clientimg{
+    object-fit: cover;
+    min-width: 9rem;
+    border-radius: 15px;
+    border: solid;
+    margin: 15px;
+
+}
+.icon1{
+    height: 50px;
+    width: 50px;
+    color: aqua;
+}
+.icon2{
+    height: 50px;
+    width: 50px;
+    color: rgb(17, 255, 0);
+}
+.icon3{
+    height: 50px;
+    width: 50px;
+    color: red;
+}
+.icon4{
+    height: 50px;
+    width: 50px;
+    color: violet;
+}
+#contact{
+    padding: 2rem;
+}
+.contactdesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contactform{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+.name,.email,.message{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: solid 2px;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+.subbtn{
+    background: #fff;
+    padding: 0.7rem 3.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+.icon1,.icon2,.icon3,.icon4{
+    margin: 20px;
+    cursor: pointer;
+}
+.subbtn{
+    cursor: pointer;
+}
